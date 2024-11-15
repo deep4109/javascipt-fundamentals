@@ -30,7 +30,7 @@ const age2 = calculateAge2(1990);
 
 console.log(age2);
 
-//Array function
+//Arrow function
 const calcAge3 = (birthYear) => 2037 - birthYear;
 
 console.log(calcAge3(2003));
@@ -61,6 +61,9 @@ const jonas = {
   age: 43,
   job: "teacher",
   fridends: ["deep", "singh"],
+  calcAge: function (year) {
+    return 2037 - year;
+  },
 };
 
-console.log(jonas.fridends);
+console.log(jonas.calcAge(jonas.age));
