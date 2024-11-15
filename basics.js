@@ -52,7 +52,7 @@ const jonayArray = [
   ["deep", "singh"],
 ];
 
-console.log(jonayArray[1]);
+console.log(jonayArray[0]);
 
 // now objects
 const jonas = {
